@@ -1,1 +1,1 @@
-# jhbook-mete-rules
+# mete-rules
