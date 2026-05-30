@@ -25,10 +25,11 @@ DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,easytomessage.com
-
-
-
-
+DOMAIN-SUFFIX,gdtimg.com
+DOMAIN-SUFFIX,umsns.com
+DOMAIN-SUFFIX,gepush.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,effirst.com
 
 
 # 域名关键字匹配
