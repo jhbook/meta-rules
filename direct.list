@@ -31,8 +31,6 @@ DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-SUFFIX,msftncsi.com
-DOMAIN-SUFFIX,msftconnecttest.com
 
 
 
@@ -62,29 +60,9 @@ DOMAIN-SUFFIX,msftconnecttest.com
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# 域名精确匹配
+DOMAIN,www.msftconnecttest.com
+DOMAIN,dns.msftncsi.com
 
 
 
