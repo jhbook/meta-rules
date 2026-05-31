@@ -5,7 +5,6 @@
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,log.mmstat.com
-DOMAIN-SUFFIX,easytier.5126666.xyz
 DOMAIN-SUFFIX,public.easytier.top
 DOMAIN-SUFFIX,turn.js.629957.xyz
 DOMAIN-SUFFIX,huizhuanle.com
@@ -65,7 +64,7 @@ DOMAIN,www.msftconnecttest.com
 DOMAIN,dns.msftncsi.com
 DOMAIN,localhost.ptlogin2.qq.com
 DOMAIN,captive.apple.com
-
+DOMAIN,easytier.5126666.xyz
 
 
 
