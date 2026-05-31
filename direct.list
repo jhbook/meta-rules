@@ -63,9 +63,8 @@ DOMAIN-SUFFIX,ttwebview.com
 # 域名精确匹配
 DOMAIN,www.msftconnecttest.com
 DOMAIN,dns.msftncsi.com
-
-
-
+DOMAIN,localhost.ptlogin2.qq.com
+DOMAIN,captive.apple.com
 
 
 
