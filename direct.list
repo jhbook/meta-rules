@@ -32,7 +32,8 @@ DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,right.com.cn
 DOMAIN-SUFFIX,ooklaserver.net
-
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
 
 
 
@@ -60,8 +61,6 @@ DOMAIN-SUFFIX,ooklaserver.net
 
 
 # 域名精确匹配
-DOMAIN,www.msftconnecttest.com
-DOMAIN,dns.msftncsi.com
 DOMAIN,localhost.ptlogin2.qq.com
 DOMAIN,captive.apple.com
 DOMAIN,easytier.5126666.xyz
