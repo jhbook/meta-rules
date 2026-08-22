@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,jbangda.com
+DOMAIN-SUFFIX,wiwiz.com
 
 ##字节系国内服务直连规则##
 DOMAIN-SUFFIX,activity-wbsj.com
