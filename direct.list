@@ -4,6 +4,7 @@
 
 
 # 域名后缀匹配
+DOMAIN-SUFFIX,5126666.xyz
 DOMAIN-SUFFIX,log.mmstat.com
 DOMAIN-SUFFIX,public.easytier.top
 DOMAIN-SUFFIX,turn.js.629957.xyz
@@ -145,12 +146,8 @@ DOMAIN-SUFFIX,qishuimusic.com.cn
 # 域名精确匹配
 DOMAIN,localhost.ptlogin2.qq.com
 DOMAIN,captive.apple.com
-DOMAIN,easytier.5126666.xyz
 DOMAIN,speedtest.im
-DOMAIN,nps.5126666.xyz
-DOMAIN,kms.5126666.xyz
-DOMAIN,dns.5126666.xyz
-DOMAIN,cn.easytier.5126666.xyz
+
 
 
 
