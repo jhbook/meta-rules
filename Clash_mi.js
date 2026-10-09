@@ -431,18 +431,18 @@ function main(config) {
   // 18. 生成地区手动节点组（select + include-all + filter）
   // ================================================================
 
-  var regionSelectGroups = [];
-  regionOrder.forEach(function (name) {
-    var group = {
-      name: name,
-      type: "select",
-      "include-all": true,
-      filter: regionFilters[name]
-    };
-    var icon = getGroupIcon(name);
-    if (icon) group.icon = icon;
-    regionSelectGroups.push(group);
-  });
+  // var regionSelectGroups = [];
+  // regionOrder.forEach(function (name) {
+  //   var group = {
+  //     name: name,
+  //     type: "select",
+  //     "include-all": true,
+  //     filter: regionFilters[name]
+  //   };
+  //   var icon = getGroupIcon(name);
+  //   if (icon) group.icon = icon;
+  //   regionSelectGroups.push(group);
+  // });
 
 
   // ================================================================
@@ -515,13 +515,13 @@ function main(config) {
   });
 
   // 手动地区列表
-  var selectList = regionOrder.slice();
+  // var selectList = regionOrder.slice();
 
   // 完整可选列表（默认代理等使用）
   var fullProxyList = ["♻️ 自动选择"]
     .concat(fallbackList)
     .concat(autoList)
-    .concat(selectList)
+    // .concat(selectList)
     .concat(["🌐 手动节点", "直连"]);
 
 
@@ -574,7 +574,8 @@ function main(config) {
     "🔯 荷兰故转",
     "🔯 加拿大故转",
     "🔯 澳大利亚故转"
-  ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+  // ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+     ].concat(autoList).concat(["🌐 手动节点", "直连"]);
 
   var chatgptGroup = createBusinessGroup("🤖 ChatGPT", chatgptPrefer);
 
@@ -599,7 +600,8 @@ function main(config) {
     "🔯 荷兰故转",
     "🔯 加拿大故转",
     "🔯 澳大利亚故转"
-  ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+  // ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+       ].concat(autoList).concat(["🌐 手动节点", "直连"]);
 
   var onedriveGroup = createBusinessGroup("🐬 OneDrive", onedrivePrefer);
 
@@ -618,7 +620,8 @@ function main(config) {
     "🔯 荷兰故转",
     "🔯 加拿大故转",
     "🔯 澳大利亚故转"
-  ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+  // ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+       ].concat(autoList).concat(["🌐 手动节点", "直连"]);
 
   var tiktokGroup = createBusinessGroup("🎵 TikTok", tiktokPrefer);
 
@@ -644,7 +647,8 @@ function main(config) {
     "🔯 荷兰故转",
     "🔯 加拿大故转",
     "🔯 澳大利亚故转"
-  ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+  // ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+       ].concat(autoList).concat(["🌐 手动节点", "直连"]);
 
   var netflixGroup = createBusinessGroup("🎥 NETFLIX", netflixPrefer);
 
@@ -664,7 +668,8 @@ function main(config) {
     "🔯 荷兰故转",
     "🔯 加拿大故转",
     "🔯 澳大利亚故转"
-  ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+  // ].concat(autoList).concat(selectList).concat(["🌐 手动节点", "直连"]);
+       ].concat(autoList).concat(["🌐 手动节点", "直连"]);
 
   var paypalGroup = createBusinessGroup("💶 PayPal", paypalPrefer);
 
@@ -675,7 +680,7 @@ function main(config) {
       .concat(fallbackList)
       .concat(autoList)
       .concat(["♻️ 自动选择"])
-      .concat(selectList)
+      // .concat(selectList)
       .concat(["🌐 手动节点", "直连"])
   );
 
@@ -701,7 +706,7 @@ function main(config) {
   // ================================================================
 
   var rawGroups = businessGroups
-    .concat(regionSelectGroups)
+    // .concat(regionSelectGroups)
     .concat(regionFallbackGroups)
     .concat(regionAutoGroups)
     .concat([allAutoGroup, manualAllGroup]);
