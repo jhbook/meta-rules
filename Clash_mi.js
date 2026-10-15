@@ -455,7 +455,7 @@ function main(config) {
       name: fallbackNames[name],
       type: "fallback",
       "include-all": true,
-      interval: 180,
+      interval: 240,
       filter: regionFilters[name]
     };
     regionFallbackGroups.push(group);
