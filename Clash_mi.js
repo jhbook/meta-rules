@@ -456,6 +456,7 @@ function main(config) {
       type: "fallback",
       "include-all": true,
       interval: 240,
+      lazy: true,
       filter: regionFilters[name]
     };
     regionFallbackGroups.push(group);
@@ -474,6 +475,7 @@ function main(config) {
       "include-all": true,
       tolerance: 50,
       interval: 300,
+      lazy: true,
       filter: regionFilters[name]
     };
     regionAutoGroups.push(group);
@@ -490,6 +492,7 @@ function main(config) {
     "include-all": true,
     tolerance: 50,
     interval: 300,
+    lazy: true,
     filter: "^((?!(直连|DIRECT|REJECT)).)*$"
   };
 
