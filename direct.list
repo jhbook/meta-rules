@@ -148,8 +148,49 @@ DOMAIN,captive.apple.com
 DOMAIN,speedtest.im
 
 
-
-
-
-
 # 域名关键字匹配
+
+
+## 阿里 / 淘宝（国内）
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,aliexpress.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,cibntv.net
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,tbcdn.cn
+DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,tbapi.cn
+DOMAIN-SUFFIX,tb.cn
+DOMAIN-SUFFIX,etao.com
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,laiwang.com
+DOMAIN-SUFFIX,alibaba-inc.com
+DOMAIN-SUFFIX,alibabausercontent.com
+
+## 字节系再补（国内）
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,toutiaovod.com
+DOMAIN-SUFFIX,zjbyte.com
+DOMAIN-SUFFIX,zjcdn.com
+DOMAIN-SUFFIX,bytescm.com
+
+
+
